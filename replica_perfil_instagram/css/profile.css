@@ -1,0 +1,48 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-title h1{
+    margin: 0;
+    padding: 5px 0;
+}
+.container-photo-people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+div .photo{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(243, 46, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.photo img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.container-people{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
